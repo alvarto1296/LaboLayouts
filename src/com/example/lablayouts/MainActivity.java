@@ -38,8 +38,25 @@ public class MainActivity extends Activity {
     	pYuan.setText(yuan+"");
     	EditText pYen = (EditText)findViewById(R.id.editText8);
     	double yen = monto/ 0.05849034;
-    	pYen.setText(yen+"");
-    	
+    	pYen.setText(yen+"");    	
+    }
+    public void resetear(View vista){
+    	EditText pBoliviano = (EditText)findViewById(R.id.editText1);
+    	pBoliviano.setText("");
+    	EditText pDolar = (EditText)findViewById(R.id.editText2);
+    	pDolar.setText("");
+    	EditText pEuro = (EditText)findViewById(R.id.editText3);
+    	pEuro.setText("");
+    	EditText pSoles = (EditText)findViewById(R.id.editText4);
+    	pSoles.setText("");
+    	EditText pPesoCh = (EditText)findViewById(R.id.editText5);
+    	pPesoCh.setText("");
+    	EditText pReal = (EditText)findViewById(R.id.editText6);
+    	pReal.setText("");
+    	EditText pYuan = (EditText)findViewById(R.id.editText7);
+    	pYuan.setText("");
+    	EditText pYen = (EditText)findViewById(R.id.editText8);
+    	pYen.setText("");
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
